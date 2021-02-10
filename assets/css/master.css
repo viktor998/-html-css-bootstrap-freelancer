@@ -1,0 +1,77 @@
+header .container-fluid{
+    background-color: #2c3e50;
+    border :none;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+    border: 0;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    padding-top: 20px;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-collapse{
+    border: none;
+}
+
+.col-xs-6.menu span{
+    font-weight: bold;
+    color: white;
+}
+
+
+.col-xs-6 span{
+    vertical-align: middle;
+    
+}
+
+.col-xs-6 .icon-bar{
+    width: 14px;
+    margin-top: 3px; 
+    background-color: white;   
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-toggle, 
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover { 
+    background-color:#1abc9c ;
+    border-radius: 10px;
+}
+
+button.navbar-toggle {
+   width: 120px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #1abc9c;
+    
+}
+
+.jumbo-img{
+    background-color: #1abc9c;
+    position: relative;
+    top: 58px;
+}
+
+.jumbo-img img{
+    width: 240px;
+    height: 254px;
+    display: block;
+    margin: 80px auto;
+}
