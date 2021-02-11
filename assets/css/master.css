@@ -25,6 +25,10 @@ body{
     border: none;
 }
 
+.navbar-toggle.collapsed{
+    margin-top: 20px;
+}
+
 .navbar.navbar-default.navbar-fixed-top.color-primary > .container{
     padding-top: 20px;
 }
@@ -297,3 +301,5 @@ footer.container-fluid{
 .copyright p{
     padding: 20px;
 }
+
+
