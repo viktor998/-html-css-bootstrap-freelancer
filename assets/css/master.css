@@ -1,9 +1,7 @@
 body{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Montserrat', sans-serif;
 }
-
-
-
+ 
  nav.navbar.navbar-default.navbar-fixed-top {   
     border-bottom: none;
     background-image: linear-gradient(to bottom,#2c3e50 0,#2c3e50 100%);
@@ -25,8 +23,9 @@ body{
     border: none;
 }
 
-.navbar-toggle.collapsed{
+.navbar-toggle{
     margin-top: 20px;
+  
 }
 
 .navbar.navbar-default.navbar-fixed-top.color-primary > .container{
@@ -41,12 +40,8 @@ body{
     border: none;
 }
 
-
-
-button .menu, button section.hamburger{
-    
+button .menu, button span.hamburger{
     display: inline-block;
-    
 }
 
 span.menu {
@@ -54,12 +49,9 @@ span.menu {
     color: white;
 }
 
-
 .col-xs-6 span{
     vertical-align: middle;
-    
 }
-
 
 .hamburger .icon-bar{
     width: 14px;
@@ -78,8 +70,6 @@ span.menu {
     border-radius: 10px;
 }
 
-
-
 .navbar-default .navbar-nav>li>a {
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -91,11 +81,11 @@ span.menu {
 }
 
 .jumbo-img{
+    
     background-color: #1abc9c;
     position: relative;
     top: 50px;
     text-align: center;
-    
 }
 
 .jumbo-img h1{
@@ -111,15 +101,35 @@ span.menu {
     margin-bottom: 40px;
 }
 
-.row .col-xs-4 hr{
-    border: 2px solid white;
-    border-radius: 5px;
+.row.starred{
+    padding-bottom: 20px;
 }
 
-.col-xs-2.star{
+.row.starred hr, .row.starred .star{
+    display: inline-block;
+}
+
+.row hr{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    position: relative;
+    top: 10px;
+    transform: translate(-50%, -50%);
+}
+
+.row hr.left{
+    left: 100px;
+}
+
+.star{
     color: white;
     font-size: 30px;
 }
+
+
+
+
 
 .row.artist p{
     color: white;
@@ -127,12 +137,16 @@ span.menu {
     padding-bottom: 60px;
 }
 
-.row .col-xs-4.black hr{
+.row.starred hr.black, .row.starred .star-black{
+    display: inline-block;
+}
+
+.row.starred hr.black{
     border: 2px solid #2c3e50;
     border-radius: 5px;
 }
 
-.col-xs-2.star-black{
+.star-black{
     color: #2c3e50;
     font-size: 30px;
 }
@@ -143,9 +157,6 @@ span.menu {
     font-size: 3em;
     color: #2c3e50;
 }
-
-
-
 
 .row.gallery .green-card-hover, .row.gallery img{
     width: 310px;
@@ -174,8 +185,6 @@ span.menu {
     font-weight: bolder;
     color: white;
     line-height: 230px;
-
-    
 }
 
 .col-xs-12.col-sm-6.col-lg-4:hover .green-card-hover{
@@ -185,7 +194,6 @@ span.menu {
 .row.gallery .col-xs-12{
     margin-top: 40px;
 }
-
 
 .container-fluid.about{
     margin-top: 40px;
@@ -202,7 +210,6 @@ span.menu {
     margin-top: 30px;
     margin-bottom: 60px;
 }
-
 
 .row.download button{
     padding: 20px;
@@ -227,8 +234,6 @@ span.menu {
     border: none;
     
 }
-
-
 
 input.form-control{
     border: none;
@@ -301,5 +306,3 @@ footer.container-fluid{
 .copyright p{
     padding: 20px;
 }
-
-
